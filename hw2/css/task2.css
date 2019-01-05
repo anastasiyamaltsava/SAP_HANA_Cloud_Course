@@ -1,0 +1,30 @@
+div
+{
+    width: 30vh;
+    height: 30vh;
+    margin: 10% 0% 0% 10%;
+    position: absolute;
+}
+
+#redBlock
+{
+    background-color: red;
+    margin-left: 35%;
+    z-index: 1;
+}
+
+#greenBlock
+{
+    background-color: green;
+    z-index: 3;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+#blueBlock
+{
+    background-color: blue;
+    z-index: 2;
+    margin-left: 45%;
+    margin-top: 30%;
+}

@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-spacing: 1vw;
+    margin: -0.6vh 0 0vh 0;
+}
+
+#orangeBlocks {
+    background-color: orange;
+    height: 10vh;
+}
+
+#yellowBlocks {
+    background-color: yellow;
+    height: 30vh;
+}
+
+#blueBlocks {
+    background-color: blue;
+    height: 26vh;
+}
+
+#grayBlocks {
+    background-color: gray;
+    height: 18vh;
+}

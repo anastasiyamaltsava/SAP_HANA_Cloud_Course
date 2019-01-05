@@ -1,0 +1,107 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#head {
+    width: 100%;
+    height: 15%;
+    display: inline-flex;
+}
+
+#head div:first-child {
+    background-color: red;
+    width: 33%;
+    height: 100%;
+    display: inherit;
+    margin: 1%;
+}
+
+#head div:last-child {
+    background-color: orange;
+    width: 62%;
+    height: 100%;
+    display: inherit;
+    margin: 1%;
+}
+
+#body {
+    width: 97%;
+    margin: 1%;
+    height: 45%;
+    background-color: green;
+}
+
+#foot {
+    width: 100%;
+    height: 36%;
+    display: inline-flex;
+}
+
+#foot div {
+    width: 31%;
+    background-color: blue;
+    margin: 1%;
+}
+
+#foot div:first-child {
+    background-color: saddlebrown; 
+}
+
+#foot div:last-child {
+    background-color: purple; 
+}
+
+@media (max-device-width: 667px) {
+    #head div:first-child {
+        background-color: green; 
+        width: 100%;
+    }
+
+    #body {
+        height: 15%;
+        background-color: purple;
+    }
+
+    #foot div:first-child, #foot div:last-child, #head div:last-child{
+        display: none;
+    }
+
+    #foot {
+        height: 63%;
+    }
+
+    #foot div{
+        width: 100%;
+        background-color: red;
+    }
+}
+
+@media (min-device-width: 668px) and (max-device-width: 1024px) {
+    #head div:first-child {
+        background-color: orange; 
+    }
+
+    #head div:last-child {
+        background-color: purple; 
+    }
+
+    #body {
+        height: 40%;
+        background-color: red;
+    }
+
+    #foot div:last-child {
+        display: none;
+    }
+
+    #foot {
+        height: 41%;
+    }
+
+    #foot div{
+        width: 47.5%;
+        background-color: blue;
+        margin: 1%;
+    }
+}

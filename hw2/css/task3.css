@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    background-color: mediumorchid;
+    border-radius: 0.5em 0.5em 0em 0em;
+}
+
+.button {
+    width: 100%;
+    padding: 10%;
+    font-size: 80%;
+    color: white;
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+.button:hover {
+    background-color: purple;
+}
+
+#sidebar {
+    width: 10%;
+    height: 600px;
+    position: fixed;
+    margin-left: 5%;
+    background-color: mediumorchid;
+    opacity: 0.5;
+}
+
+.content
+{
+    width: 80%;
+    height:inherit;
+    margin-left: 15%;
+    background: lightgrey;
+    text-align: center;
+    padding-top: 1%;
+    color: rgb(45, 45, 45);
+    
+}
+
+#footer {
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    border-radius: 0em 0em 0.5em 0.5em;
+    background-color: gray;
+    position: absolute;
+    text-align: center;
+}
