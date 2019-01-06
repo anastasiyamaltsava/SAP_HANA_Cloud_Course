@@ -1,0 +1,40 @@
+#myCarousel {
+    height: 50vh;
+}
+
+.carousel-item {
+    height: inherit;
+}
+
+.carousel-inner {
+    height: inherit;
+}
+
+.row {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.col-md-7 {
+    text-align: left;
+}
+
+.order-md-2 {
+    text-align: right;
+}
+
+.container {
+    max-width: 69%;
+    align-items: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
