@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    opacity: 0.7;
+    text-align: center;
+    height: 100vh;
+}
+
+button {
+    margin-top: 20vh;
+    font-size: 3vh;
+    height: 10vh;
+    width: 30vw;
+    background-color: tomato;
+    border-radius: 10vh;
+}
+
+button:hover {
+    background-color: RGB(255, 254, 254);
+    border: 0.2vh solid tomato;
+    color: RGB(45, 45, 45);
+}
+
+.flex-container {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    border: 0.2vh solid white;
+    border-radius: 1vh;
+    background: tomato;
+    width: 35%;
+    height: 20%;
+    margin-top: 2%;
+    line-height: 300%;
+    color: white;
+    font-size: 3em;
+}
