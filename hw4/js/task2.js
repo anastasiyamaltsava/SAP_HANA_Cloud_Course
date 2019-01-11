@@ -1,5 +1,17 @@
 document.getElementById("insertFlexBox").onclick = function () {
-    document.getElementById("body").innerHTML = '<ul class="flex-container"><li class="flex-item">1</li><li class="flex-item">2</li><li class="flex-item">3</li><li class="flex-item">4</li><li class="flex-item">5</li><li class="flex-item">6</li></ul>';
+    document.getElementById("body").innerHTML = "";
+
+    var ul = document.createElement("ul");
+
+    ul.setAttribute("class", "flex-container");
+    document.getElementById("body").appendChild(ul);
+
+    for (let i = 1; i < 7; i++) {
+        var li = document.createElement("li");
+        li.setAttribute("class", "flex-item");
+        li.textContent = i;
+        ul.appendChild(li);
+    }    
 }
 
 document.getElementById("goHome").onclick = function () {
