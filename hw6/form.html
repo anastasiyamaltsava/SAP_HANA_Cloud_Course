@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/form.js"></script>
+</head>
+
+<body onload="Start()">
+
+    <form>
+        <p>Title</p>
+        <input type="text" id="book_title">
+
+        <p>Field of study</p>
+        <input type="text" id="book_fieldOfStudy">
+
+        <p>Publisher</p>
+        <input type="text" id="book_publisher">
+
+        <p>Binding type</p>
+        <input type="radio" name="book_binding" id="rb1" value="light"><label for="rb1">Light</label>
+        <input type="radio" name="book_binding" id="rb2" value="dark"><label for="rb2">Dark</label>
+
+        <p>
+        <input type="checkbox" id="book_CD"><label for="check1">CD</label>
+        <input type="checkbox" id="book_DVD"><label for="check2">DVD</label><br><br></p>
+        
+        <p>Author</p>
+        <input type="text" id="book_author">
+
+        <p>
+        <input type="submit" value="Send" id="save">
+        <input type="button" value="Back" id="back"></p>
+    </form>
+
+</body>
+
+</html>
