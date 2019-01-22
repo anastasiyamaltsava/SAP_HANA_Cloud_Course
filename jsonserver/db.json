@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "data": {
+        "title": "Title2",
+        "fieldOfStudy": "science",
+        "publisher": "Publisher2",
+        "bindingType": "dark",
+        "CD": true,
+        "DVD": true,
+        "author": "Author2"
+      }
+    },
+    {
+      "id": "2",
+      "data": {
+        "title": "Title3",
+        "fieldOfStudy": "science",
+        "publisher": "Publisher3",
+        "bindingType": "light",
+        "CD": true,
+        "DVD": true,
+        "author": "Author3"
+      }
+    }
+  ]
+}
