@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(235, 230, 230);
+}
+
+div{
+    text-align: center;
+}
+
+a, img{
+    align-self: center;
+}

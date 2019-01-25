@@ -6,61 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HW8 task 1</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/task1.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="roboto/roboto.css"> -->
+    <link rel="stylesheet" href="css/task1.css">
     <script src="js/task1.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
 </head>
 
 <body onload="start()">
-    <table id="table-data">
-        <caption>Airports</caption>
-        <tr class="tr_header">
-            <th>Name</th>
-            <th>Address</th>
-        </tr>
-    </table>
-    <div id="request-menu">
-        <div class="buttons">
-            <button class="button" type="submit" onclick="butSelect()">
-                Select
-            </button>
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit" onclick="butCount()">
-                COUNT
-            </button>
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit" style="border: 1px solid red;" onclick="butExpand()">
-                EXPAND
-            </button>
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit" onclick="butOrderBy()">
-                ORDERBY
-            </button>
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit" onclick="butSearch()">
-                SEARCH
-            </button>
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit" onclick="butSkip()">
-                SKIP
-            </button>
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit" onclick="butTop()">
-                TOP
-            </button>
-        </div>
-        <div class="buttons">
-            <button class="button" type="submit" onclick="butFilter()">
-                3X FILTER
-            </button>
-        </div>
+    <div>
+        <table id="table-data">
+            <caption>Airports</caption>
+            <tr class="tr_header">
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        </table>
+    </div>
+    <div id="buttons">
+        <button type="submit" onclick="butSelect()">
+            Select
+        </button>
+        <button type="submit" onclick="butCount()">
+            COUNT
+        </button>
+        <button type="submit" onclick="butExpand()">
+            EXPAND
+        </button>
+        <button type="submit" onclick="butOrderBy()">
+            ORDERBY
+        </button>
+        <button type="submit" onclick="butSearch()">
+            SEARCH
+        </button>
+        <button type="submit" onclick="butSkip()">
+            SKIP
+        </button>
+        <button type="submit" onclick="butTop()">
+            TOP
+        </button>
+        <button type="submit" onclick="butFilter()">
+            3X FILTER
+        </button>
     </div>
 </body>
 

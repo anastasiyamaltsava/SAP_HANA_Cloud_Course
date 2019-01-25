@@ -1,11 +1,29 @@
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200);
+body{
+    background-color: rgb(235, 230, 230);
 }
 
-td,
-caption,
-th {
-    border: 1px solid rgb(190, 190, 190);
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(200, 200, 200);
+}
+
+td, th{
+    border: 2px solid rgb(190, 190, 190);
+}
+
+caption{
+    border-top: 3px solid rgb(200, 200, 200);
+    border-left: 3px solid rgb(200, 200, 200);
+    border-right: 3px solid rgb(200, 200, 200);
+}
+
+div{
     text-align: center;
+    display: grid;
+}
+
+button{
+    background-color:  rgb(185, 182, 182);
+    border-radius: 5px;
+    padding: 5px;
 }

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(235, 230, 230);
+}
+
+form{
+    margin-left: 29%;
+    text-align: center;
+    border: 1px solid black;
+    width: 35%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+p{
+    margin-left: 25%;
+    background-color: rgb(185, 182, 182);
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+}
+
+#save, #back{
+    background-color:  rgb(185, 182, 182);
+    border-radius: 5px;
+    padding: 5px;
+}
