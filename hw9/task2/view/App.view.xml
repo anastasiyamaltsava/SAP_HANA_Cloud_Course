@@ -1,0 +1,46 @@
+<mvc:View
+    controllerName="sap.ui.demo.db.controller.App"
+	xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+    <Panel headerText="{i18n>header}" class="sapUiResponsiveMargin" width="auto">
+		<content>
+            <Table
+                id="peopleList"
+                class="sapUiResponsiveMargin"
+                width="auto"
+                items="{path : 'people>/value'}">
+                    <columns>
+                            <Column>
+                                <Text text="{i18n>firstColumn}"/>
+                            </Column>
+                            <Column
+                                minScreenWidth="Small"
+                                demandPopin="true">
+                                <Text text="{i18n>secondColumn}"/>
+                            </Column>
+                            <Column
+                                minScreenWidth="Small"
+                                demandPopin="true">
+                                <Text text="{i18n>thirdColumn}"/>
+                            </Column>
+                            <Column
+                                minScreenWidth="Small"
+                                demandPopin="true">
+                                <Text text="{i18n>fourthColumn}"/>
+                            </Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+                                <Text text="{people>FirstName}"/>
+                                <Text text="{people>LastName}"/>
+                                <Text text="{people>Gender}"/>
+                                <Text text="{people>Emails}"/>
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+            </Table>
+		</content>
+	</Panel>
+</mvc:View>
