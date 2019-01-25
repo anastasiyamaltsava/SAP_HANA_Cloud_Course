@@ -1,0 +1,43 @@
+<mvc:View
+controllerName="sap.ui.demo.db.controller.App"
+	xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Shell>
+	<App id="app">
+	<pages>
+	<Page >
+	
+    <Panel headerText="{i18n>header}" class="sapUiResponsiveMargin" width="auto">
+		<content>
+			<Table
+                id="PeopleList"
+                class="sapUiResponsiveMargin"
+                width="auto"
+                items="{path : 'people>/value'}">
+                    <columns>
+                            <Column>
+                                <Text text="{i18n>firstColumn}"/>
+                            </Column>
+                            <Column>
+                                <Text text="{i18n>secondColumn}"/>
+                            </Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem
+                        type="Navigation"
+                        press = ".onItemSelected">
+                            <cells>
+                                <Text text="{people>UserName}"/>
+                                <Text text="{people>Gender}"/>
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+            </Table>
+		</content>
+	</Panel>
+	</Page>
+	</pages>
+	</App>
+	</Shell>
+</mvc:View>
